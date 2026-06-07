@@ -18,7 +18,8 @@
       "backgroundColor": "#07111f"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.puretechnologies.busconnect"
     },
     "android": {
       "adaptiveIcon": {
@@ -26,10 +27,17 @@
         "backgroundColor": "#07111f"
       },
       "edgeToEdgeEnabled": true,
-      "predictiveBackGestureEnabled": false
+      "predictiveBackGestureEnabled": false,
+      "package": "com.puretechnologies.busconnect"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "7c76dfeb-31a9-4139-8f4f-5bc105528a50"
+      }
     }
   }
 }
